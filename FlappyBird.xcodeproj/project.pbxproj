@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1551302F33C986DCB2E077FA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D898D1368114FA6EA815D678 /* CoreText.framework */; };
+		41AF74CFE5DAD863E4632394 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8150CDE97F06D1A2F1A76745 /* AssetsLibrary.framework */; };
 		43745200193D163700654986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437451FF193D163700654986 /* AppDelegate.swift */; };
 		43745202193D163700654986 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 43745201193D163700654986 /* GameScene.sks */; };
 		43745204193D163800654986 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43745203193D163800654986 /* GameScene.swift */; };
@@ -15,6 +17,9 @@
 		4374520B193D163800654986 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4374520A193D163800654986 /* Images.xcassets */; };
 		43745217193D163800654986 /* FlappyBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43745216193D163800654986 /* FlappyBirdTests.swift */; };
 		437A3DBA193D326A00909BA0 /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 437A3DB9193D326A00909BA0 /* bird.atlas */; };
+		5AF9DC03DD53727467A9F11C /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B36BFD7E925CE9C2BD70A8 /* BuddyBuildSDK.framework */; };
+		73AE9D42A69345DCEB81FD0D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634FBE2B47BBC57C5AAE6A5F /* CoreTelephony.framework */; };
+		94C29616108CBC56AA1673D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729E076AC0ED440C09767A1D /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29B36BFD7E925CE9C2BD70A8 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		437451FA193D163700654986 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		437451FE193D163700654986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		437451FF193D163700654986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +46,11 @@
 		43745215193D163800654986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43745216193D163800654986 /* FlappyBirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdTests.swift; sourceTree = "<group>"; };
 		437A3DB9193D326A00909BA0 /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
+		634FBE2B47BBC57C5AAE6A5F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		729E076AC0ED440C09767A1D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8150CDE97F06D1A2F1A76745 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9DB1978AE4B749467143F61B /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		D898D1368114FA6EA815D678 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF9DC03DD53727467A9F11C /* BuddyBuildSDK.framework in Frameworks */,
+				41AF74CFE5DAD863E4632394 /* AssetsLibrary.framework in Frameworks */,
+				1551302F33C986DCB2E077FA /* CoreText.framework in Frameworks */,
+				73AE9D42A69345DCEB81FD0D /* CoreTelephony.framework in Frameworks */,
+				94C29616108CBC56AA1673D9 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +82,8 @@
 				437451FC193D163700654986 /* FlappyBird */,
 				43745213193D163800654986 /* FlappyBirdTests */,
 				437451FB193D163700654986 /* Products */,
+				97D3025B90185968049860D6 /* Frameworks */,
+				9DB1978AE4B749467143F61B /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 0;
@@ -117,6 +135,18 @@
 				43745215193D163800654986 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97D3025B90185968049860D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B36BFD7E925CE9C2BD70A8 /* BuddyBuildSDK.framework */,
+				8150CDE97F06D1A2F1A76745 /* AssetsLibrary.framework */,
+				D898D1368114FA6EA815D678 /* CoreText.framework */,
+				634FBE2B47BBC57C5AAE6A5F /* CoreTelephony.framework */,
+				729E076AC0ED440C09767A1D /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,9 +372,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FlappyBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -353,9 +388,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FlappyBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
